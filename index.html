@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -24,7 +30,7 @@
           <button id="open-nav" class="nav-icon">
             <img src="./images/icon-hamburger.svg" alt="open menu" />
           </button>
-          <div class="nav__overlay">
+          <div class="nav__overlay container">
             <div class="nav__extras row hide">
               <div class="logo">
                 <img src="./images/logo.svg" alt="Loopstudios logo" />
@@ -37,7 +43,7 @@
                 />
               </button>
             </div>
-            <ul class="nav__list nav__link--header row">
+            <ul class="nav__list nav__list--header row">
               <li class="nav__item"><a href="" class="nav__link">About</a></li>
               <li class="nav__item">
                 <a href="" class="nav__link">Careers</a>
@@ -239,50 +245,58 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__top container row">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="Loopstudios logo" />
+      <div class="footer__wrapper row container">
+        <div class="footer__top">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="Loopstudios logo" />
+          </div>
+          <nav>
+            <ul class="nav__list nav__list--footer row">
+              <li class="nav__item"><a href="" class="nav__link">About</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Careers</a>
+              </li>
+              <li class="nav__item"><a href="" class="nav__link">Events</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Products</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Support</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="social-icons row">
-          <img
-            src="./images/icon-facebook.svg"
-            alt="Facebook"
-            class="social-icon"
-          />
-          <img
-            src="./images/icon-twitter.svg"
-            alt="twitter"
-            class="social-icon"
-          />
-          <img
-            src="./images/icon-pinterest.svg"
-            alt="pinterest"
-            class="social-icon"
-          />
-          <img
-            src="./images/icon-instagram.svg"
-            alt="instagram"
-            class="social-icon"
-          />
+        <div class="footer__bottom">
+          <div class="social-icons row">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="Facebook"
+              class="social-icon"
+            />
+            <img
+              src="./images/icon-twitter.svg"
+              alt="twitter"
+              class="social-icon"
+            />
+            <img
+              src="./images/icon-pinterest.svg"
+              alt="pinterest"
+              class="social-icon"
+            />
+            <img
+              src="./images/icon-instagram.svg"
+              alt="instagram"
+              class="social-icon"
+            />
+          </div>
+          <div class="copyrights">© 2021 Loopstudios. All rights reserved.</div>
         </div>
-      </div>
-      <div class="footer__bottom container row">
-        <nav>
-          <ul class="nav__list row">
-            <li class="nav__item"><a href="" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Careers</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Events</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Products</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Support</a></li>
-          </ul>
-        </nav>
-        <div class="copyrights">© 2021 Loopstudios. All rights reserved.</div>
       </div>
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/Jayfx24">A.E.O</a>.
       </div>
     </footer>
     <script src="./script.js" defer></script>
