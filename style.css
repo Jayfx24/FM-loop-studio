@@ -26,6 +26,7 @@ body {
     font-family: var(--josefin);
     font-size: 0.9375rem;
     line-height: 1.65;
+    height: 100%;
 }
 
 ul {
