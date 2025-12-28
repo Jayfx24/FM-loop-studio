@@ -4,13 +4,13 @@ const navOverlay = document.querySelector(".nav__overlay");
 const navList = document.querySelector(".nav__list");
 const navExtras = document.querySelector(".nav__extras");
 
+function handleMenu() {
+  
 
-
-function handleOpen(e){
-    const target = e.currentTarget;
-
-    target.classList.add('hide');
-    navOverlay.classList.add('mobile-overlay');
-    navExtras.classList.toggle('hide')
-
+  openMenu.classList.toggle("hide");
+  navOverlay.classList.toggle("mobile-overlay");
+  navExtras.classList.toggle("hide");
 }
+
+openMenu.addEventListener("click", handleMenu);
+closeMenu.addEventListener("click", handleMenu);
