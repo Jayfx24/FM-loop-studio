@@ -71,7 +71,7 @@ img {
     justify-content: space-between;
     color: var(--white);
    
-    margin-block-start: 4rem;
+    margin-block-start: 3.75rem;
 
 }
 
@@ -148,7 +148,7 @@ img {
     line-height: 1em;
     color: var(--white);
     border: 2px solid var(--white);
-    padding: clamp(1.125rem, 0.3574rem + 3.2752vw, 2.65rem) clamp(1.5rem, 0.9966rem + 2.1477vw, 2.5rem);
+    padding: clamp(1.125rem, 0.3574rem + 3.2752vw, 2.625rem) clamp(1.5rem, 0.9966rem + 2.1477vw, 2.5rem);
     font-weight: 300;
 }
 
