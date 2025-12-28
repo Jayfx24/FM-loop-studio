@@ -10,7 +10,7 @@
 
     --section-heading: clamp(2rem, calc(1.4966rem + 2.1477vw), 3rem);
 
-    --alata:  "Alata", sans-serif;
+    --alata: "Alata", sans-serif;
     --josefin: "Josefin Sans", sans-serif;
 }
 
@@ -39,8 +39,6 @@ img {
 }
 
 .wrapper {
-    /* max-width: 1440px; */
-    min-height: 100vh;
     position: relative;
     margin-inline: auto;
     overflow: hidden;
@@ -49,7 +47,7 @@ img {
 .container {
     width: 100%;
     max-width: 1120px;
-    /* padding-inline: 2rem; */
+
     margin-inline: auto;
 }
 
@@ -120,7 +118,7 @@ img {
     border: none
 }
 
-.logo{
+.logo {
     max-width: 200px;
 }
 
@@ -136,14 +134,12 @@ img {
 
     position: absolute;
     top: 35%;
-    /* justify-content: center; */
+
     z-index: 2;
     width: 100%;
 }
 
-.hero__text {
-    /* width: 100%; */
-}
+
 
 .hero__title {
     max-width: 650px;
@@ -185,9 +181,8 @@ img {
 .about {
     display: flex;
     position: relative;
-    /* padding-block-start: clamp(6.0625rem, calc(4.0805rem + 8.4564vw), 10rem); */
     margin-block: clamp(6.0625rem, calc(4.0805rem + 8.4564vw), 10rem);
-    /* min-height: 500px; */
+
 }
 
 .about__content {
@@ -315,18 +310,15 @@ img {
 
 .footer__wrapper {
     justify-content: space-between;
- 
+
 }
 
 .footer__top,
 .footer__bottom {
     display: grid;
-    /* justify-content: space-between;
-    margin-block-end: 1.5rem; */
     gap: 1.5rem
 }
 
-.footer__top {}
 
 .social-icons {
     justify-content: flex-end;
@@ -346,7 +338,7 @@ img {
 }
 
 .attribution {
-      margin-block-start: 2rem;
+    margin-block-start: 2rem;
     font-size: 11px;
     text-align: center;
 }
@@ -404,7 +396,7 @@ img {
         font-family: var(--josefin);
     }
 
-   .nav__list--header .nav__item {
+    .nav__list--header .nav__item {
         justify-content: start;
         text-transform: uppercase;
         font-size: 1.5rem;
@@ -419,11 +411,10 @@ img {
     }
 
     .nav__extras {
-        /* display: flex; */
         justify-content: space-between;
     }
 
-    .hero__title {}
+
 
 
     .about,
@@ -474,23 +465,27 @@ img {
 
 @media (max-width:767px) {
 
-    
-    .footer__wrapper{
+
+    .footer__wrapper {
         flex-direction: column;
-        gap:2.5rem;
+        gap: 2.5rem;
         padding: 3.5rem;
     }
-    .nav__list--footer{
+
+    .nav__list--footer {
         flex-direction: column;
     }
-    .social-icons{
+
+    .social-icons {
         justify-content: center;
     }
-    .copyrights{
+
+    .copyrights {
         text-align: center;
-      
+
     }
-    .footer .logo{
+
+    .footer .logo {
         margin-inline: auto;
     }
 }
