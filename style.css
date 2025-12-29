@@ -182,8 +182,8 @@ img {
 .about {
     display: flex;
     position: relative;
-    margin-block: clamp(6.0625rem, calc(4.0805rem + 8.4564vw), 10rem);
-
+    margin-block: clamp(6.0625rem, calc(4.0805rem + 8.4564vw), 10rem) 11.5rem;
+    
 }
 
 .about__content {
@@ -219,7 +219,7 @@ img {
     position: relative;
     gap: clamp(0.125rem, calc(-2.3289rem + 10.4698vw), 5rem);
     line-height: 1;
-    margin-bottom: 6rem;
+    margin-block-end: clamp(6.125rem, 3.4824rem + 11.2752vw, 11.375rem);
 }
 
 .creations__texts {
@@ -443,7 +443,7 @@ img {
 
     .creations__btn {
         position: absolute;
-        bottom: 3rem;
+        inset-block-end: 3rem;
         margin-inline: auto;
         text-align: center;
     }
